@@ -1,0 +1,10 @@
+name: Delete test environment
+on: delete
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Compute deployment name domain
+        run: |
+            echo "${{ toJson(github) }}"
