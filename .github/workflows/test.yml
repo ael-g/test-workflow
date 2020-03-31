@@ -1,5 +1,11 @@
 name: Delete test environment
-on: delete
+on: 
+  delete: {}
+  pull_request:
+  types:
+    - opened
+    - reopened
+    - synchronize
 
 jobs:
   test:
