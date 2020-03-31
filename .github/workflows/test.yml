@@ -1,6 +1,7 @@
 name: Delete test environment
 on: 
   delete: {}
+  push: {}
   pull_request:
     types:
       - opened
