@@ -4,5 +4,3 @@ environments:
   production:
     aliases:
       - prod
-    auto_deploy:
-      ref: refs/heads/master
