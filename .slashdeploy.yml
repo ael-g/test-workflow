@@ -1,0 +1,8 @@
+# SlashDeploy configuration file
+version: 1
+environments:
+  production:
+    aliases:
+      - prod
+    auto_deploy:
+      ref: refs/heads/master
