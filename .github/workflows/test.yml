@@ -2,6 +2,9 @@ name: Delete test environment
 on: 
   delete: {}
   deployment: {}
+  push:
+    branches:
+      - master
   pull_request:
     types:
       - opened
